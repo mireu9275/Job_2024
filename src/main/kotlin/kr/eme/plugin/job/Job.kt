@@ -1,17 +1,17 @@
-package kr.eme.plugin.job;
+package kr.eme.plugin.job
 
-import org.bukkit.plugin.java.JavaPlugin;
+import kr.eme.library.objects.EmePlugin
 
-public final class Job extends JavaPlugin {
+class Job : EmePlugin() {
+    override fun onEnable() {
+        main = this
+        registerEvents(
 
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
+        )
 
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }

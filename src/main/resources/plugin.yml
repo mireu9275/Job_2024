@@ -2,3 +2,9 @@ name: Job
 version: '${version}'
 main: kr.eme.plugin.job.Job
 api-version: '1.20'
+depend:
+  - EmeLibrary
+commands:
+  직업:
+    description: 직업 플러그인 명령어
+    aliases: job

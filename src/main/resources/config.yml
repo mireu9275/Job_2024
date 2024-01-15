@@ -1,0 +1,4 @@
+# 처음 들어온 사람의 직업
+
+onJoinPlayerJob: adventurer # 기본 직업 [기본값 모험가]
+jobSelectLevel: 10 # 전직 레벨 [기본값 10]
