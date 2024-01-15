@@ -1,0 +1,4 @@
+name: Job
+version: '${version}'
+main: kr.eme.plugin.job.Job
+api-version: '1.20'
